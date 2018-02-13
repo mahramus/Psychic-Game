@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="en-us">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Psychic Game</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
+    crossorigin="anonymous" media="screen">
+  <!-- <link rel="stylesheet" type="text/css" href="assets/css/style.css"> -->
+  <link rel="stylesheet" type="text/css" href="assets/css/style2.css">
+</head>
+
+<body>
+    
+<h1>The Psychic Game</h1>
+
+<p>Guess what letter I'm thinking of</p>
+
+<p>Wins: 2</p>
+
+<p>Losses: 2</p>
+
+<p>Guesses Left: 2</p>
+
+<p>Your Guesses So Far: 2</p>
+
+
+<script>
+
+  var letterArray = ["a", "b", "c", "d", "e", "f", "g", "h", "i", "j", "k", "l", "m", "n", "o", "p", "q", "r", "s", "t", "u", "v", "w", "x", "y", "z"];
+
+  var computerGuess = letterArray[Math.floor(Math.random() * letterArray.length)];
+
+  var userGuess = prompt("Guess what letter I'm thinking of");
+
+// For guessCount < 5 g++1 
+// Run loop no more than 5 times
+// 
+
+//If userGuess === computerGuess, then 
+
+// function bundle: alert("You guessed it!"), Wins ++1, start new computerGuess
+
+
+//else function bundle: alert("Try again") go back to top of loop
+
+
+  
+  console.log("Computer Guess: " + computerGuess);
+  console.log("User's Guess: " + userGuess);
+
+
+
+
+</script>
+
+
+</body>
+
+</html>
