@@ -4,23 +4,23 @@
 <head>
   <meta charset="UTF-8">
   <title>Psychic Game</title>
+  <script type="text/javascript" src="assets/javascript/game.js"></script>
+  <link rel="stylesheet" type="text/css" href="assets/css/style.css">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
     crossorigin="anonymous" media="screen">
-  <!-- <link rel="stylesheet" type="text/css" href="assets/css/style.css"> -->
-  <link rel="stylesheet" type="text/css" href="assets/css/style2.css">
 </head>
 
 <body>
 
-  <container>
+  <div class="container-fluid bg">
 
     <h1>Guess what letter I'm thinking of...</h1>
 
     <div id="gameboard">
-      <p>Press any letter on your keyboard to register your guess.</p>
+      <p class="opening">Press any letter on your keyboard to register your guess.</p>
     </div>
 
-  </container>
+  </div>
 
   <!-- Fun header, center text, make Wins grow as you get more correct. Or some image? -->
 
@@ -36,8 +36,9 @@
 
   <p id="guesses-so-far">Your Guesses So Far: 2</p> -->
 
+  <!-- <script src="assets/javascript/game.js"></script> -->
 
-  <script type="text/javascript">
+  <!-- <script type="text/javascript">
 
     var letterArray = ["a", "b", "c", "d", "e", "f", "g", "h", "i", "j", "k", "l", "m", "n", "o", "p", "q", "r", "s", "t", "u", "v", "w", "x", "y", "z"];
 
@@ -98,19 +99,9 @@
 
     //else function bundle: alert("Try again") go back to top of loop
 
-  </script>
+  </script> -->
 
 
 </body>
 
 </html>
-
-
-<!-- notes from Sean:
-
-  consider a while loop wrapped around the entire thing that will control how often you can guess, then eventually for how long you can play. 
-
-  Rock Paper Scissors game is very similar to this!  
-
-
--->
